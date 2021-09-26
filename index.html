@@ -21,9 +21,9 @@
        </div>
     </div>
     <div id="panelcontainer">
-        <textarea class="panel" id="htmlPanel"><p>HELLO WORLD</p></textarea>
+        <textarea class="panel" id="htmlPanel"><p id="para">HELLO WORLD</p></textarea>
         <textarea class="panel hidden" id="cssPanel">p{color:green};</textarea>
-        <textarea class="panel hidden" id="jsPanel">alert("hi");</textarea>
+        <textarea class="panel hidden" id="jsPanel">document.getElementById("para").innerHtml="hello";</textarea>
         <iframe id="outputPanel" class="panel"></iframe>
     </div>
    
